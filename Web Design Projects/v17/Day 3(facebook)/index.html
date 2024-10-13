@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controls">
+                        <tr>
+                            <td><label class="login-label">Email or Phone</label> </td>
+                            <td><label class="login-label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input class="submit-button" type="submit" value="login"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgotten" href="forgotten.html">Forgotten account?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you connect and share with the<br> people in your life.</p>
+                <img class="image" src="fb.png" alt="">
+            </div>
+            <div class="right-section">
+                <div class="right-sectionheader">
+                    <h1 class="create">Create an account</h1>
+                    <p class="createpara">It's quick and easy.</p>
+                </div>
+                
+                <form action="" class="acctdetails" id="signup-form">
+                <div>
+                    <input name="fname" class="acctname detailsfont" type="text" placeholder="First name"> <input name="sname" class="acctlastname detailsfont" type="text" placeholder="surname ">
+                    <input name="emailaddress" class="detailsdistance detailsfont" type="text" placeholder="Mobile number or email address"><br>
+                    <input name="Password" class="detailsdistance detailsfont" type="text" placeholder="New Password ">
+                </div>
+                <div class="remaindetails">
+                    <h3 class="subhead">Birthday</h3>
+                    <div class="birthpos">
+                    <select class="selectedit" name="day" id="">
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                        <option value="">13</option>
+                        <option value="">14</option>
+                    </select>
+                    <select class="selectedit" name="month" id="">
+                        <option value="">Jan</option>
+                        <option value="">Feb</option>
+                        <option value="">Mar</option>
+                        <option value="">Apr</option>
+                        <option value="">May</option>
+                        <option value="">Jun</option>
+                        <option value="">Jul</option>
+                        <option value="">Aug</option>
+                        <option value="">Sep</option>
+                        <option value="">Oct</option>
+                        <option value="">Nov</option>
+                        <option value="">Dec</option>
+                    </select>
+                    <select class="selectedit" name="year" id="">
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                        <option value="">2003</option>
+                        <option value="">2004</option>
+                        <option value="">2005</option>
+                        <option value="">2006</option>
+                        <option value="">2007</option>
+                        <option value="">2008</option>
+                        <option value="">2009</option>
+                        <option value="">2010</option>
+                        <option value="">2011</option>
+                        <option value="">2012</option>
+                        <option value="">2013</option>
+                        <option value="">2014</option>
+                    </select>
+                    </div>
+                    <div class="iconpos">
+                    <a href="icon.html"><img class="iconedit" src="https://cdn.iconscout.com/icon/free/png-256/free-question-mark-icon-download-in-svg-png-gif-file-formats--cr-fr-help-faq-user-interface-pack-icons-3644874.png?f=webp&w=256" alt=""></a>
+                    </div>
+                </div><br>
+                <div class="remaindetails">
+                    <h3 class="subhead">Gender</h3>
+                </div>
+                <div class="radiopos">
+                    <label for="" class="radiosize"> Female</label>
+                   <input name="gender" type="radio">
+                    <label for="" class="radiosize">Male</label>
+                   <input name="gender" type="radio">        
+               </div>
+               <div class="iconpos2">
+                <a href="icon.html"><img class="iconedit" src="https://cdn.iconscout.com/icon/free/png-256/free-question-mark-icon-download-in-svg-png-gif-file-formats--cr-fr-help-faq-user-interface-pack-icons-3644874.png?f=webp&w=256" alt=""></a>
+                </div><br>
+               <p class="termspara">By clicking Sign Up,you agree to our Terms,<a class="terms" href="data.html">Data Policy<br> and Cookie Policy.</a>  You may receive SMS notifications from <br> us and can opt out at any time.</p>
+               <div class="acctdetails">
+                <button class="buttondesign" type="submit">SignUp</button>
+                <p class="lpara"><a class="terms" href="page.html">Create a Page</a> for a celebrity, band or business.</p>
+                </div>
+                </form>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

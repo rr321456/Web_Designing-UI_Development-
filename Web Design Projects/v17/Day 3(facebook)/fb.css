@@ -1,0 +1,171 @@
+.header{
+    background: #3b5998;
+    width: 100%;
+    height: 85px;
+}
+body{
+    margin: 0px;
+    font-family: helvetica neue, Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+.login{
+    width: 50%;
+    float: left;
+}
+.logo-text{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: helvetica neue, Arial, Helvetica, sans-serif;
+    margin-left: 170px;
+}
+.login-label{
+    color: white;
+    font-size: 11px;
+}
+.login-controls{
+    margin-left: 115px;
+}
+.login{
+    padding-top: 10px;
+}
+.forgotten{
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 11px;
+}
+.submit-button{
+    background: #4267b2;
+    color: white;
+    height: 22px;
+    border-color: #29487d;
+    cursor: pointer;
+}
+.submit-button:hover{
+    background-color: yellowgreen;
+}
+.left-section{
+    width: 39%;
+    float: left;
+    padding-left: 134px;
+    padding-top: 52px;
+}
+.right-section{
+    width: 50%;
+    float: left;
+}
+.main-body{
+    background: linear-gradient(white,#D3D8E8);
+    width: 100%;
+    height: 550px;
+}
+.image{
+    width: 565px;
+}
+.para{
+    font-size: 21px;
+    font-weight: bold;
+}
+.right-sectionheader{
+    padding-left: 115px;
+    padding-top: 20px;
+}
+.create{
+    font-size: 34px;
+    margin-top: 10px;
+}
+.acctdetails{
+    margin-left: 112px;
+    margin-top: 8px;
+}
+.createpara{
+    margin-top: -19px;
+    font-size: 19px
+}
+.acctname{
+    width: 188px;
+    height: 28px;
+}
+.acctlastname{
+    width: 188px;
+    height: 28px;
+    margin-left: 7px;
+}
+.detailsfont{
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #757575; 
+}
+.detailsdistance{
+    margin-top: 8px;
+    height: 28px;
+    width: 394px;
+}
+.remaindetails{
+    
+    margin-top: 4px;
+}
+.subhead{
+    color: #757575;
+    margin-bottom: 6px;
+}
+.iconedit{
+    height: 18px;
+    width: 18px;
+    
+}
+.selectedit{
+    height: 26px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.birthpos{
+    float: left;
+}
+.iconpos{
+    margin-top: 4px;
+    margin-left: 4px;
+    float: left;
+}
+.terms{
+    text-decoration: none;
+}
+.radiosize{
+    font-size: larger;
+}
+.termspara{
+    font-size: smaller;
+    color: #817c7c;
+}
+.buttondesign
+{
+    width: 214px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #5F9B4C;
+    border: 1px solid;
+    border-color: rgb(20, 19, 19);
+    color: white;
+    border-radius: 5px;
+}
+.radiopos{
+    float: left;
+}
+.iconpos2{
+    margin-top: 1px;
+    margin-left: 8px;
+    float: left;
+}
+.lpara
+{
+    margin-top: 28px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555252;
+}
